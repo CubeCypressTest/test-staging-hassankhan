@@ -8,7 +8,7 @@ cube(`Orders`, {
     UNION ALL
     select 4 as id, 500 as amount, 'processed' status
     UNION ALL
-    select 5 as id, 600 as amount, 'shipped' status
+    select 6 as id, 600 as amount, 'shipped' status
     `,
   
     preAggregations: {
